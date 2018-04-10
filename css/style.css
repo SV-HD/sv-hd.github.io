@@ -291,9 +291,9 @@ footer{
       text-align: center;
     }
 
-    #showcase h1,
-    #showcase2 h1,
-    #above-showcase h1{
-      font-size: 20px;
+    section#showcase h1,
+    section#showcase2 h1,
+    section#above-showcase h1{
+      font-size: 30px;
     }
 }
