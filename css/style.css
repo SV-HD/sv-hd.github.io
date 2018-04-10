@@ -1,0 +1,310 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 30px;
+  background: #e8491d;
+  border: 0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:10px;
+  background:#35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.dark2{
+  padding: 10px;
+  background:#35424a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  max-height: 400px;
+  min-height: 80px;
+  blueborder-bottom: #7FFFD4 3px solid;
+  orangeborder-bottom: #e8491d 3px solid;
+  border-bottom: #D63333 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+  width: 50%;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header #branding img{
+  max-height: 50px;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header .highlight, header .current a{
+  bcolor: #7FFFD4;
+  ocolor: #e8491d;
+  color: #D63333;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+/* above-showcase */
+#above-showcase{
+  padding: 15px;
+  color: #ffffff;
+  background-color: #35424a;
+}
+
+#above-showcase h1{
+  text-align: center;
+}
+
+/* showcase */
+#showcase{
+  min-height: 400px;
+  background: url("../img/showcase3.jpg") no-repeat ;
+  background-image: contain;
+  text-align: justify;
+  color: #ffffff;
+}
+
+#showcase h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 12%;
+  overflow: ellipsis;
+  text-overflow: inherit;
+}
+
+#showcase p{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+
+/* showcase2 */
+#showcase2{
+  min-height: 400px;
+  background: url("../img/showcase3.jpg") no-repeat 0 ;
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+#showcase2 h1{
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+
+}
+
+/* under-showcase */
+#under-showcase p{
+  font-size: 20px;
+  margin: 10px;
+  text-align: justify;
+}
+
+/* above-boxes */
+#above-boxes{
+  padding: 15px;
+  color: #ffffff;
+  background-color: #35424a;
+  margin-bottom: 5px;
+}
+
+#above-boxes h1{
+  text-align: center;
+}
+
+/* sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:;
+  text-align: justify;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;;
+}
+
+/* main-col */
+article#main-col{
+  float:left;
+  width:65%;
+  text-align: justify;
+}
+
+/* Dozenten */
+section#Dozenten .box{
+  margin-bottom: 5%;
+}
+
+section#Dozenten h3,
+section#Dozenten h4,
+section#Dozenten p{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 1px;
+  margin-left: 30%;
+  margin-right: 5%;
+  background: #e6e6e6;
+}
+
+img.resize {
+  width:540px; /* you can use % */
+  height: auto;
+}
+
+section#Dozenten .box img{
+  float: left;
+  margin-left: 5%;
+  padding: 5px;
+  max-width: 100%;
+  width: 20%;
+  }
+
+/* Vorlesungen */
+
+section#Vorlesungen h3{
+  list-style: none;
+  padding: 1em;
+  border: #cccccc solid 1px;
+  background: #e6e6e6;
+  float: left;
+  margin: auto;
+  width: 100%;
+
+}
+
+#accordion{
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+/* footer */
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #D63333;
+  text-align: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+
+  section#Dozenten .box img{
+    float: left;
+    margin-left: 5%;
+    padding: 5px;
+    max-width: 100%;
+    width: 90%;
+    }
+
+    section#Dozenten h3,
+    section#Dozenten h4,
+    section#Dozenten p{
+      list-style: none;
+      padding: 20px;
+      border: #cccccc solid 1px;
+      margin-bottom: 1px;
+      margin-left: 5%;
+      margin-right: 5%;
+      background: #e6e6e6;
+    }
+
+    section#Dozenten h3,
+    section#Dozenten h4{
+      text-align: center;
+    }
+}
