@@ -290,4 +290,10 @@ footer{
     section#Dozenten h4{
       text-align: center;
     }
+
+    #showcase h1,
+    #showcase2 h1,
+    #above-showcase h1{
+      font-size: 40px;
+    }
 }
