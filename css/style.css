@@ -74,7 +74,6 @@ header li{
 
 header #branding{
   float: left;
-  width: 50%;
 }
 
 header #branding h1{
@@ -219,23 +218,14 @@ section#Dozenten .box img{
   }
 
 /* Vorlesungen */
-
-section#Vorlesungen h3{
-  list-style: none;
-  padding: 1em;
-  border: #cccccc solid 1px;
-  background: #e6e6e6;
-  float: left;
-  margin: auto;
-  width: 100%;
-
+section#Vorlesungen p{
+  text-align: justify;
 }
 
 #accordion{
   width: 100%;
   margin-top: 10px;
 }
-
 
 /* footer */
 footer{
@@ -245,7 +235,6 @@ footer{
   background-color: #D63333;
   text-align: center;
 }
-
 
 /* Media Queries */
 @media(max-width: 768px){
