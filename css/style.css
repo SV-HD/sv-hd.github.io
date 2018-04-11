@@ -217,6 +217,11 @@ section#Dozenten .box img{
   width: 20%;
   }
 
+#Carousel{
+  margin-left: 30%;
+  margin-right: 5%;
+}
+
 /* Vorlesungen */
 section#Vorlesungen p{
   text-align: justify;
